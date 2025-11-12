@@ -1,0 +1,32 @@
+.preview-pane {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-primary, #0d1117);
+  border-left: 1px solid var(--bg-border, #30363d);
+  flex: 1;
+}
+
+.preview-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm, 8px);
+  padding: var(--spacing-md, 12px);
+  background: var(--bg-secondary, #161b22);
+  border-bottom: 1px solid var(--bg-border, #30363d);
+  font-family: var(--font-mono, monospace);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-tertiary, #6e7681);
+  letter-spacing: 0.5px;
+}
+
+.preview-icon {
+  font-size: 14px;
+}
+
+.preview-iframe {
+  flex: 1;
+  border: none;
+  background: white;
+  width: 100%;
+}

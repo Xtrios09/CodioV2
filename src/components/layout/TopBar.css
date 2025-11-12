@@ -1,0 +1,71 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md, 12px);
+  padding: 0 var(--spacing-lg, 16px);
+  height: 48px;
+  background: var(--bg-secondary, #161b22);
+  border-bottom: 1px solid var(--bg-border, #30363d);
+  font-family: var(--font-mono, monospace);
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm, 8px);
+  color: var(--text-primary, #c9d1d9);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  margin-right: var(--spacing-lg, 16px);
+}
+
+.topbar-icon {
+  color: var(--text-accent, #58a6ff);
+  font-size: 16px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 4px);
+  flex: 1;
+}
+
+.topbar-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 4px);
+  padding: var(--spacing-sm, 8px) var(--spacing-md, 12px);
+  background: transparent;
+  border: none;
+  color: var(--text-secondary, #8b949e);
+  font-family: var(--font-mono, monospace);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all var(--transition-fast, 150ms);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.topbar-btn:hover {
+  background: var(--bg-hover, #21262d);
+  color: var(--text-primary, #c9d1d9);
+}
+
+.topbar-btn:active {
+  background: var(--bg-active, #2d333b);
+}
+
+.topbar-btn .icon {
+  font-size: 14px;
+}
+
+.topbar-separator {
+  width: 1px;
+  height: 20px;
+  background: var(--bg-border, #30363d);
+  margin: 0 var(--spacing-sm, 8px);
+}
