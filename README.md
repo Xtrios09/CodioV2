@@ -2,7 +2,8 @@
 
 Welcome to the **Code Editor App**, a powerful and intuitive online code editor designed for developers of all skill levels. Whether you're writing JavaScript, Python, HTML, or CSS, this application offers a rich set of features to enhance your coding experience. 
 
- <!-- Replace with an actual image URL -->
+<img width="1874" height="995" alt="image" src="https://github.com/user-attachments/assets/a0f5c336-ea5a-4888-b8a3-e626ba8b2d0f" />
+
 
 ## Features
 
